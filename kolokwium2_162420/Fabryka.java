@@ -27,7 +27,7 @@ public class Fabryka {
                 naj = elf.getWiek();
             }
         }
-        return naj; //poprawic
+        return naj; 
     }
 
     public ArrayList<Elf> getListaE() {
