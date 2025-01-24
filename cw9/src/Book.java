@@ -68,3 +68,8 @@ public class Book {
         return Objects.hash(getTitle(), getAuthor(), getReviews());
     }
 }
+
+
+//Stwórz rekord Book, który reprezentuje title, author i yearOfPublication. Dodaj
+//metodę describe(), która zwraca sformatowaną postać informacji o książce w stylu
+//“Autor - Tytuł (Rok wydania)”. Stwórz przypadek testowy.

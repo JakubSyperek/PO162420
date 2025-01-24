@@ -17,3 +17,10 @@ public record BookDTO(String title, String author, double price, int yearOfPubli
         System.out.println(bookDTO5.BookDTOInfo());
     }
 }
+
+//Stwórz rekord BookDTO, który reprezentuje książkę w sklepie internetowym. Powinien
+//zawierać takie informacje jak title, author, price i yearOfPublication. Następnie
+//stwórz kilka instancji tego rekordu, reprezentujących różne książki.
+
+
+

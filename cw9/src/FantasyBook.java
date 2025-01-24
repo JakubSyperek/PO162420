@@ -40,3 +40,10 @@ public class FantasyBook extends Book{
         return Objects.hash(super.hashCode(), getFantasySubgenre());
     }
 }
+
+//Utwórz klasę Book z polami title, author oraz reviews (jako tablica z elementami typu
+//double). Dodaj metody pozwalające na dodawanie i usuwanie recenzji. Utwórz klasę
+//FantasyBook, która dziedziczy po klasie Book. Klasa FantasyBook powinna mieć dodatkowe
+//pole fantasySubgenre. Dodaj konstruktory, metody gettery i settery, metodę
+//toString(), equals() oraz hashCode() dla każdej z klas. Napisz program testujący
+//zdefiniowane klasy i metody.

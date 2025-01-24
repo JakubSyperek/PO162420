@@ -47,3 +47,12 @@ public final class ImmutableBook {
         return Objects.hash(title, author, isbn);
     }
 }
+
+
+//Stwórz klasę ImmutableBook z prywatnymi finalnymi polami: title (tytuł), author
+//(autor), isbn (numer ISBN).
+//• Dodaj konstruktor parametryczny do inicjalizacji wszystkich pól.
+//• Dodaj publiczne metody getTitle, getAuthor, getIsbn do pobierania wartości pól, ale
+//nie dodawaj żadnych metod umożliwiających ich modyfikację.
+//• Zaimplementuj metody toString, equals i hashCode.
+//• Sprawdź, czy taka klasa może być uznana jako niemodyfikowalna (inmutable).
