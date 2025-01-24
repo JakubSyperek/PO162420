@@ -25,6 +25,8 @@ class Counter<T>{
     }
 }
 
+
+
 public class TestPunkt {
 
     public static <T> boolean isEqual(T a, T b){
@@ -46,3 +48,11 @@ public class TestPunkt {
 
 
 }
+
+//1. Stwórz prostą klasę generyczną Box, która może przechowywać obiekt dowolnego typu.
+//Klasa powinna zawierać metodę set, aby ustawić obiekt, oraz metodę get, aby go pobrać.
+//2. Napisz generyczną metodę isEqual, która przyjmuje dwa dowolne obiekty tego samego
+//typu i zwraca true, jeśli są one równe, w przeciwnym razie false.
+//3. Stwórz klasę generyczną Counter<T>, która będzie zliczać ilość dodanych elementów
+//określonego typu. Klasa powinna mieć metodę add(T element), która dodaje element
+//do wewnętrznej struktury, oraz metodę getCount(), która zwraca liczbę dodanych elementów.

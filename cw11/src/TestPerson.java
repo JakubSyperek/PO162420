@@ -91,3 +91,13 @@ public class TestPerson{
 
     }
 }
+
+
+//Stwórz klasę generyczną Pair<T> która przechowuje dwa obiekty tego samego typu.
+//Utwórz dwie klasy: Animal (Zwierzę) i Dog (Pies), gdzie Dog dziedziczy po Animal.
+//Klasa Dog ma posiadać prywatne pole age, które nie posiada klasa Animal. Następnie
+//napisz statyczną metodę generyczną findMinMaxAge, która przyjmuje jako argument tablicę
+//obiektów typu Dog oraz Pair<?super Dog> result. Metoda powinna ma zapisać
+//(jako obiekty typu Dog) najmniejszy i najmniejszy (pod kątem wieku) psa z tablicy w
+//drugim argumencie metody. Zrób to bezpośrednio bez używania interfejsów Comparable
+//czy Comparator.
